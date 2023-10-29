@@ -1,0 +1,67 @@
+.form {
+    margin-top: 227px;
+
+    .container {
+        align-items: center;
+        text-align: center;
+    }
+
+    &__heading {
+        color: #058AFF;
+        font-family: "Roboto";
+        font-size: 31.25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #000;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        opacity: 0.7;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__email {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid #058AFF;
+    }
+
+    &__img {
+        transform: translateY(8px);
+    }
+
+
+    &__input {
+        border: none;
+    }
+
+    &__btn {
+        transform: translateY(3px);
+        @include btn;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .form__email {
+        padding: 5px 5px;
+    }
+
+    .form__btn {
+        font-size: 14px;
+    }
+
+    .form__input {
+        font-size: 12px;
+    }
+}

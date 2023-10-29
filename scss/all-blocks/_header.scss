@@ -7,6 +7,10 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    &__logo {
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
 }
 
 .nav {
@@ -88,7 +92,7 @@
         display: block;
         position: absolute;
         font-family: "Robot";
-        width: 50%; 
+        width: 50%;
         height: 10%;
         top: 80px;
         left: 0px;
