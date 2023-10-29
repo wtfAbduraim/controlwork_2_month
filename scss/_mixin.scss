@@ -1,6 +1,6 @@
 @mixin btn {
     border-radius: 6px;
-    background: #0082F4;
+    background: var(--color-birinchi);
     color: #FFF;
     font-family: "Roboto";
     font-size: 20px;
@@ -12,13 +12,13 @@
 
     &:hover {
         background: #FFF;
-        color: #0082F4;
-        border: 2px solid #0082F4;
+        color: var(--color-birinchi);
+        border: 2px solid var(--color-birinchi);
     }
 }
 
 @mixin boshi {
-    color: #0080FD;
+    color: var(--color-birinchi);
     font-family: "Roboto";
     font-size: 25px;
     font-style: normal;
@@ -29,7 +29,7 @@
 }
 
 @mixin h {
-    color: #000;
+    color: var(--color-qora);
     font-family: "Roboto";
     font-size: 60px;
     font-style: normal;
@@ -38,7 +38,7 @@
 }
 
 @mixin h2 {
-    color: #000;
+    color: var(--color-qora);
     font-family: "Roboto";
     font-size: 48.44px;
     font-style: normal;
@@ -47,7 +47,7 @@
 }
 
 @mixin text {
-    color: #000;
+    color: var(--color-qora);
     font-family: "Roboto";
     font-size: 16px;
     font-style: normal;

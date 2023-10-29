@@ -39,7 +39,7 @@
     }
 
     &__heading {
-        color: #000;
+        color: var(--color-qora);
         font-family: "Roboto";
         font-size: 25px;
         font-style: normal;
@@ -48,7 +48,7 @@
     }
 
     &__link {
-        color: #000;
+        color: var(--color-qora);
         font-family: "Roboto";
         font-size: 20px;
         font-style: normal;
@@ -91,6 +91,6 @@
 
 @media only screen and (max-width: 400px) {
     .end .container {
-        transform: translateX(100px);
+        transform: translateX(50px);
     }
 }

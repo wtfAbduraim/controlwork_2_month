@@ -19,7 +19,7 @@
 }
 
 .nav__link {
-    color: #000;
+    color: var(--color-qora);
     font-family: "Roboto";
     font-size: 20px;
     font-style: normal;
@@ -27,7 +27,7 @@
     line-height: normal;
 
     &:hover {
-        color: #0082F4;
+        color: var(--color-birinchi);
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -107,7 +107,7 @@
         &>li>a {
             font-size: 24px;
             margin-right: 40px;
-            color: #000;
+            color: var(--color-qora);
 
 
             &:hover {

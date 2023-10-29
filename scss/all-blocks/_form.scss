@@ -7,7 +7,7 @@
     }
 
     &__heading {
-        color: #058AFF;
+        color: var(--color-birinchi);
         font-family: "Roboto";
         font-size: 31.25px;
         font-style: normal;
@@ -16,7 +16,7 @@
     }
 
     &__text {
-        color: #000;
+        color: var(--color-qora);
         text-align: center;
         font-family: "Roboto";
         font-size: 20px;
@@ -32,9 +32,9 @@
     }
 
     &__email {
-        padding: 10px 20px;
+        padding: 10px 25px;
         border-radius: 10px;
-        border: 1px solid #058AFF;
+        border: 1px solid var(--color-birinchi);
     }
 
     &__img {
@@ -47,7 +47,6 @@
     }
 
     &__btn {
-        transform: translateY(3px);
         @include btn;
     }
 }

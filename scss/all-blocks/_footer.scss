@@ -1,6 +1,6 @@
 .footer {
     margin-top: 150px;
-    background: #058AFF;
+    background: var(--color-birinchi);
 
     .container {
         display: flex;
@@ -19,7 +19,7 @@
     }
 
     &__btn {
-        color: #3C61E1;
+        color: var(--color-ikkinchi);
         font-family: "Roboto";
         font-size: 20px;
         font-style: normal;
@@ -34,7 +34,7 @@
 
 @media only screen and (max-width: 995px) {
     .footer .container {
-        background: #058AFF;
+        background: var(--color-birinchi);
 
     }
 
@@ -52,7 +52,7 @@
     .footer .container {
         flex-direction: column;
         text-align: center;
-        background: #058AFF;
+        background: var(--color-birinchi);
     }
 
     .footer__btn {

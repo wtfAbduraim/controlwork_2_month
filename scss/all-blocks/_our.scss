@@ -16,7 +16,7 @@
     }
 
     &__title {
-        color: #000;
+        color: var(--color-qora);
         font-family: "Roboto";
         font-size: 28px;
         font-style: normal;
@@ -27,7 +27,7 @@
     &__text {
         max-width: 324px;
         width: 100%;
-        color: #000;
+        color: var(--color-qora);
         text-align: center;
         font-family: "Roboto";
         font-size: 20px;
